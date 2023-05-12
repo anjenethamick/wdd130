@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 header,.grid,footer{
     max-width: 840px;
     margin: 0 auto;
@@ -36,8 +40,6 @@ nav {
     padding: 20px;    
     }
 
-
-
     h1 {
     color: steelblue;
     padding: .5rem;
@@ -51,7 +53,7 @@ nav {
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
-    margin: 0 0 1 rem 1rem;  
+    margin: 0 0 1rem 1rem;  
     }
     
     p {
@@ -75,8 +77,8 @@ nav {
     }
     aside h2{
         position: absolute;
-        border-top: 50px;
-        left: 675px;
+        top: 50px;
+        left: 116px;
     }
     main image{
         width: 150px;
@@ -94,4 +96,6 @@ nav {
         background-color: #eee;
         color: #000;
     }
-   
+   .indent {
+    padding-left: 2rem;
+   }
