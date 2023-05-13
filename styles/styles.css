@@ -100,3 +100,10 @@ nav {
    .indent {
     padding-left: 2rem;
    }
+   footer {
+        border-top: 1pt solid black;
+   }
+   footer p {
+    text-align: center;
+    
+   }
