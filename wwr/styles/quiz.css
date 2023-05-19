@@ -6,7 +6,6 @@
 }
 body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 1.2 rem;
     color: black;
     background: #fff;
 }
@@ -24,7 +23,7 @@ form {
     width: 650px;
     margin: 0 auto;
     padding: 1rem;
-    border: 1px solid rgba(red, green, rgb(104, 104, 184), alpha);
+    border:#fff;
     border-radius: 0.5rem;
     background-color:khaki;
     display: grid;
@@ -61,12 +60,24 @@ input [type="checkbox"] {
 }
 button {
     margin: 1rem;
-    background-color: auto;
+    background-color:cornflowerblue;
     color:blue;
     border:#fff;
     border-radius: .5rem;
     padding: .75rem;
     font-size: 1.2rem;
+}
+p {
+    display: grid;
+    background-color:darkgrey;
+    width: auto;
+    margin-left: 70px;
+    margin-right: 70px;
+    color:black;
+    text-align: center;
+    height: 40px;
+    align-items: center;
+    padding-left: 15px;
 }
 button:hover {
     background-color:cornflowerblue;
