@@ -193,7 +193,49 @@ footer {
     padding: 3px;
     text-align: end;
 }
-
+form {
+    width: 950px;
+    margin: 0 auto;
+    padding: 1rem;
+    border:#00bcd4;
+    border-radius: 0.5rem;
+    background-color:#CCD5AE;
+    display: grid;
+}
+.input-field {
+    width: 400px;
+    height: 90px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    outline: none;
+}
+.textarea-field {
+    height: 200px;
+    padding-top: 10px;
+}
+fieldset{
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px saddlebrown;
+    padding: 1rem;
+}
+legend {
+    padding: 0.5rem;
+    color:black;
+    font-size: 1.7em;
+}
+button {
+    margin: 1rem;
+    background-color:palevioletred;
+    color:blue;
+    border:#fff;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
 
 
 /*.header {
