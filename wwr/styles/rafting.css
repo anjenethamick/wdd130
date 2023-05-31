@@ -19,6 +19,109 @@
         padding: 0px;
         border: none;
 }
+.layer2 {
+    background-color:cadetblue;
+    max-width: 1200px;
+}
+#backdrop {
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 0 ;
+       
+}
+.layer2{
+background-color:#ffffff;
+max-width: 1200px;
+
+}
+
+#welcome {
+    background-color: var(--primary-color);
+    max-width: 1200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#welcome h2{
+    text-align: center;
+    font-family: var(--heading-font);
+    font-size: 50px;
+    color:indianred;
+    
+}
+#welcome p{
+    margin: 2rem 10rem;
+    text-align: center;
+}
+
+
+.layer2 h2{
+    color: #a67535;
+    font-family: var(--paragraph-font);
+ }
+ 
+ #part3flex {
+    display: flex;
+    justify-content: left;
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0.5rem;
+    justify-content: space-evenly;
+}
+#part3flex th {
+    background-color:darksalmon;
+    font-size:medium;
+    text-align:center;
+    font-family: var(--paragraph-font);
+    color:white;
+    padding: 2.5rem;
+}
+#part3flex td {
+    background-color: #e8e8e8;
+    text-align: center;
+    color: black;
+    padding: 0.5rem;
+    font-size:medium;
+}
+
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 5.5px;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+#layerbox {
+    font-family: var(--paragraph-font);
+}
+#layerbox {
+    background-color:darksalmon;
+    width: 75%;
+    padding: 5rem;
+}
+button {
+    margin: 5rem;
+    background-color: rgb(0, 128, 115);
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-size: 1.2rem;
+}
+
 body {
     width: 980px;
     margin: 0 auto;
@@ -228,13 +331,13 @@ legend {
     font-size: 1.7em;
 }
 button {
-    margin: 1rem;
+    margin: 5rem;
     background-color:palevioletred;
     color:blue;
     border:#fff;
-    border-radius: .5rem;
-    padding: .75rem;
-    font-size: 1.2rem;
+    border-radius: 5rem;
+    padding: 0.75rem;
+    font-size: 1rem;
 }
 .container {
     width: 90px;
